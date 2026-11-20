@@ -1,0 +1,25 @@
+name: Publier l'article du jour
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # tous les jours à 6h UTC
+  workflow_dispatch:       # permet aussi de lancer à la main
+
+permissions:
+  contents: write
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Générer l'article et le site
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 generate.py
+      - name: Enregistrer les changements
+        run: |
+          git config user.name "L'ouverture"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "Article du jour" && git push)
