@@ -1,0 +1,29 @@
+:root{--bg:#f3f6f8;--ink:#101b2d;--muted:#5b6678;--accent:#2446c9;--line:#d5dce4}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1624;--ink:#e6ebf2;--muted:#98a3b5;--accent:#8fa8ff;--line:#26324a}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:19px/1.75 "Iowan Old Style",Charter,Georgia,serif}
+.wrap{max-width:38rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-underline-offset:.18em}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.masthead,h1,h2,.date,.archive li{font-family:"Avenir Next","Segoe UI",system-ui,sans-serif}
+.masthead{padding:2.2rem 0 1.6rem}
+.masthead a.brand{display:inline-flex;align-items:center;gap:.65rem;color:var(--ink);text-decoration:none;font-size:2rem;font-weight:750;letter-spacing:-.02em}
+.mark{color:var(--accent);flex:none}
+.masthead p{margin:.3rem 0 0;color:var(--muted);font-size:.95rem}
+h1{font-size:2.15rem;line-height:1.16;letter-spacing:-.025em;margin:.3rem 0 1rem}
+h1 a{color:var(--ink);text-decoration:none}
+h1 a:hover{text-decoration:underline}
+h2{font-size:1.15rem;margin:2.6rem 0 .8rem}
+.date{font-size:.9rem;line-height:1.4;color:var(--muted);margin:0}
+.lede{font-size:1.15rem;color:var(--muted);margin:0 0 1.4rem}
+article p{margin:0 0 1.2rem}
+.sources ul{padding-left:1.2rem;margin:0;font-size:.95rem}
+.sources li{margin-bottom:.4rem}
+.note{font-size:.88rem;line-height:1.55;color:var(--muted);border-left:3px solid var(--accent);padding-left:.9rem;margin-top:2rem}
+.archive ul{list-style:none;margin:0;padding:0}
+.archive li{padding:.85rem 0;border-top:1px solid var(--line)}
+.archive li a{display:block;color:var(--ink);font-weight:600;text-decoration:none;line-height:1.35}
+.archive li a:hover{color:var(--accent)}
+.empty{color:var(--muted)}
+footer{padding:3rem 0 2.5rem;color:var(--muted);font:.85rem/1.4 "Avenir Next","Segoe UI",system-ui,sans-serif}
