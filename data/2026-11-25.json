@@ -1,0 +1,37 @@
+{
+  "title": "Guerre en Ukraine : lourdes pertes humaines et tensions politiques accrues en France",
+  "description": "Le conflit en Ukraine franchit un nouveau cap avec des bilans de pertes humaines alarmants et des répercussions politiques directes en France.",
+  "paragraphs": [
+    "La guerre en Ukraine continue de peser lourdement sur le plan humain et sécuritaire, comme le révèlent de nouvelles données publiées fin novembre 2026. Des chiffres divulgués à partir de données piratées de statistiques officielles estiment les pertes russes à environ 700 000 personnes, tandis que des fuites évoquent près de 500 000 individus touchés selon les propres registres de Moscou. Face à ces estimations alarmantes, le Kremlin a refusé de commenter ces informations. Parallèlement, le front ukrainien reste le théâtre d'affrontements intenses, l'Ukraine affirmant avoir touché cinq avions militaires russes lors d'une frappe menée contre l'aérodrome de Savasleyka, qui abrite des appareils utilisés pour lancer des missiles hypersoniques et des bombes planantes.",
+    "Ce conflit prolongé alimente également les débats politiques en Europe, notamment en France où la question de l'engagement militaire se fait ressentir à l'approche de la prochaine élection présidentielle. Le candidat Teddy Riner a ainsi publiquement critiqué la présence de soldats français en Ukraine participant à des missions non combattantes de formation et de réparation de matériel, déclarant qu'il ne s'agit pas de notre guerre. En réponse, un collectif de sénateurs, d'intellectuels et de spécialistes de la sécurité a défendu une vision stratégique différente dans une tribune, estimant que la défense de l'Ukraine et le réarmement de l'Hexagone constituent un défi industriel et financier commun.",
+    "Au-delà du théâtre des opérations, les répercussions de la guerre s'inscrivent dans une instabilité géopolitique globale, marquée par des tensions diplomatiques et des défis sécuritaires multiples. L'ONU et diverses organisations continuent par ailleurs de documenter les crises humanitaires collatérales, rappelant l'urgence d'une stabilisation internationale alors que les équilibres économiques et militaires mondiaux sont mis à rude épreuve."
+  ],
+  "sources": [
+    {
+      "name": "BBC News",
+      "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+      "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "name": "BBC News",
+      "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+      "link": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "name": "France 24",
+      "title": "Guerre en Ukraine : le nombre de pertes russes estimé à 700 000, le Kremlin refuse de commenter",
+      "link": "https://www.france24.com/fr/europe/20261125-guerre-ukraine-nombre-pertes-russes-estim%C3%A9-700-000-hackers-kremlin-refuse-commenter-moscou-soldats"
+    },
+    {
+      "name": "Le Monde",
+      "title": "Teddy Riner critique le déploiement de soldats français en Ukraine pour des missions non combattantes : « Ce n’est pas notre guerre »",
+      "link": "https://www.lemonde.fr/politique/article/2026/11/25/teddy-riner-critique-le-deploiement-de-soldats-francais-en-ukraine-pour-des-missions-non-combattantes-ce-n-est-pas-notre-guerre_6815137_823448.html"
+    },
+    {
+      "name": "Le Monde",
+      "title": "« La défense de l’Ukraine et le réarmement de la France ne sont pas deux causes rivales : c’est un même défi industriel et financier »",
+      "link": "https://www.lemonde.fr/idees/article/2026/11/25/la-defense-de-l-ukraine-et-le-rearmement-de-la-france-ne-sont-pas-deux-causes-rivales-c-est-un-meme-defi-industriel-et-financier_6815119_3232.html"
+    }
+  ],
+  "date": "2026-11-25"
+}
